@@ -97,7 +97,7 @@ def compress_image(means, index, img):
 	misc.imsave('compressed_' + str(clusters) + '_colors.png', recovered)
 
 
-# Driver Code
+# driver code
 if __name__ == '__main__':
 
 	img = read_image()
